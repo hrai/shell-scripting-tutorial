@@ -1,0 +1,7 @@
+echo "hello $1"
+printf "the # of args is %d\n" "$#"
+printf "the args list is %s\n" "$*"
+printf "the args as an array is %s\n" "$@"
+fname="$1"
+lname="$2"
+printf "first: %s last: %s\n" "$fname" "$lname"
